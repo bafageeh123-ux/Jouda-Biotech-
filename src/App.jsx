@@ -74,7 +74,7 @@ const App = () => {
         </div>
         <h2 className="text-4xl md:text-7xl font-black mb-6 leading-tight">هاي سمارت جودي ✨</h2>
         <div className="inline-flex items-center gap-3 bg-white/10 px-8 py-3 rounded-full backdrop-blur-md border border-white/20">
-          <span className="font-bold text-lg md:text-xl">كل التوفيق في رحلتك العلمية</span>
+          <span className="font-bold text-lg md:text-xl">بالتوفيق</span>
           <Heart className="text-emerald-400 fill-emerald-400 animate-bounce" />
         </div>
       </section>
@@ -107,7 +107,7 @@ const App = () => {
         {/* PDFs Column */}
         <div className="space-y-6">
           <h3 className="text-2xl font-black text-amber-900 flex items-center gap-2 pr-2 border-r-4 border-amber-500">
-            <FileText className="text-amber-500"/> الحقيبة الدراسية
+            <FileText className="text-amber-500"/> الملخصات
           </h3>
           <div className="grid gap-4">
             {pdfs.map(p => (
